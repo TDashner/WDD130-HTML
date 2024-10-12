@@ -2,6 +2,8 @@ body {
 
 }
 
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +12,8 @@ body {
 
 nav a {
     text-align: center;
+    color: #fcfbfb;
+    text-decoration:none;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -27,3 +31,4 @@ main section{
 #background{
     height: 20px;
 }
+
