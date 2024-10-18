@@ -31,11 +31,12 @@ Fonts are separated by a & */
 
 body {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
   background-color: #219EBC;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 img {
   display: block;
@@ -49,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -110,10 +112,9 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em;
+  padding: 35px;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
   color: black;
   text-align: center;
 }
@@ -173,6 +174,10 @@ nav a:hover {
 .book, .join {
   background-color: aquamarine;
   color: black;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -186,20 +191,27 @@ nav a:hover {
 }
 
 .msg {
-  background-color:#8ECAE6
+  background-color:#8ECAE6;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2{
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .msg p{
   color:black;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: aliceblue;
   color: black;
+  padding:25px 50px;
+  margin-top: 200px;
 }
 
 footer a{
@@ -218,15 +230,39 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+footer .social img{
+  padding-top: 15px;
+}
+
 
 .home-title{
   color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .icon{
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img{
   width: 80px;
+}
+
+#logo_link{
+  padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+.card-img{
+  border: 10px;
+}
+
+main section img{
+  box-sizing: border-box;
 }
