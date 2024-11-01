@@ -63,6 +63,7 @@ header {
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
   background-color: #396E94;
+
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -106,10 +107,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
-  display: flex;
 }
 nav a {
   padding: 35px;
@@ -251,9 +249,9 @@ footer .social img{
   width: 80px;
 }
 
-#logo_link{
-  padding-top: 5px;
-}
+
+
+
 
 .rivers-card, .camping-card, .rapids-card{
   margin: 200px 0;
