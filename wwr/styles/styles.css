@@ -101,6 +101,10 @@ nav a:hover{
     text-align: center;
 }
 
+main{
+    display: grid;
+}
+
 main section{
     text-align: center;
 }
