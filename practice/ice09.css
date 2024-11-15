@@ -1,0 +1,17 @@
+*{
+    overflow:hidden;
+}
+
+#bottom{
+    height:50;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background:darkblue;
+    font: green;
+}
+
+.between{
+    border-left: 1px;
+    border-right: 1px;
+    border-color: white;
+}
