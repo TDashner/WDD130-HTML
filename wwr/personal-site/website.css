@@ -1,0 +1,112 @@
+header{
+    padding: 60px;
+    text-align: center;
+    background: #0A2239;
+    color: white;
+    
+}
+
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover{
+    border: 1px solid #777;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+h1{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+    background-color: rgb(126, 25, 126);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+li a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: white;
+    color: #0A2239;
+    padding: 8px 8px 8px 32px;
+}
+
+li a:hover:not(.active){
+    background-color:rgb(126, 25, 126);
+}
+
+.active{
+    background-color: rgb(23, 99, 199);
+}
+
+li {
+    float: left;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive{
+        width: 100%;
+    }
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
