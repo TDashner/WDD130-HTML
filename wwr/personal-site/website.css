@@ -6,6 +6,12 @@ header{
     
 }
 
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
 
 .gallery{
     margin: 5px;
@@ -21,11 +27,15 @@ header{
 .gallery img{
     width: 100%;
     height: auto;
+    border-style:groove;
+    border-color:#0A2239
 }
 
 .description{
     padding: 15px;
     text-align: center;
+    border-style: inherit;
+    border-style: #0A2239;
 }
 
 .responsive{
@@ -115,6 +125,7 @@ li {
     padding:40px 0;
     background-color:#ffffff;
     color:#4b4c4d;
+    text-align: center;
   }
   
   .footer-basic ul {
